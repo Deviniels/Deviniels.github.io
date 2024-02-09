@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+.topbar{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: grid;
+    place-content: center;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.pic{
+    width: 100%;
+    height: 720px;
+    background-image: url(/mount.jpg);
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.up-center{
+    display: grid;
+    place-content: center;
+}
+
+.info{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid black;
+
+}
+
+.wrap-main{
+    display: grid;
+    place-content: center;
+}
+
+.main{
+    width: auto;
+    height: 300px;
+    display: flex;
+    border-radius: 3px;
+}
+
+.submain{
+    width: auto;
+    height: 300px;
+    display: grid;
+    place-content: center;
+}
+
+.squid{
+    max-width: 185px;
+    max-height: 185px;
+    border-radius: 50%;
+}
+
+.sm2{
+    width: auto;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.letters{
+    margin-top: 70px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.socials{
+    display: flex;
+    margin-top: 18px;
+}
+
+.desc{
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .letters{
+        font-size: 15px;
+    }
+
+    .squid{
+        max-width: 165px;
+        max-height: 165px;
+    }
+}
