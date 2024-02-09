@@ -98,10 +98,10 @@
     .squid{
         max-width: 165px;
         max-height: 165px;
-        margin-right: 2px;
+        padding-right: 2px;
     }
 
     h4{
-        margin-bottom: 1px;
+        margin-bottom: 0.5px;
     }
 }
